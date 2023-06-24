@@ -27,7 +27,7 @@ cout<<"\n";
 int main(int argc, char const *argv[])
 {
 	
-  int mydata[]={-2,20,16,11,20,14,25,-3};
+  int mydata[]={-2,20,16,11,20,14,25};
   int arrySize= sizeof(mydata)/sizeof(mydata[0]);
 
 insertionSort(mydata,arrySize);
